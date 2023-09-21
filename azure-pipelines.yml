@@ -31,3 +31,6 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+                  - name: IETF Publisher
+                uses: hawkinsw/ietf-publish-action@v0.1.0
+            
